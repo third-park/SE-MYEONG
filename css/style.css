@@ -1,0 +1,459 @@
+
+ html, body, div, span, applet, object, iframe,
+ h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+ a, abbr, acronym, address, big, cite, code,
+ del, dfn, em, img, ins, kbd, q, s, samp,
+ small, strike, strong, sub, sup, tt, var,
+ b, u, i, center,
+ dl, dt, dd, ol, ul, li,
+ fieldset, form, label, legend,
+ table, caption, tbody, tfoot, thead, tr, th, td,
+ article, aside, canvas, details, embed,
+ figure, figcaption, footer, header, hgroup,
+ menu, nav, output, ruby, section, summary,
+ time, mark, audio, video {
+   margin: 0;
+   padding: 0;
+ }
+ 
+ @media (min-width: 1200px) {
+   .container {
+     max-width: 1340px;
+   }
+ }
+ body {
+   font-family: "Larsseit";
+   color: #aeafb9;
+ }
+ 
+ .container-fluid {
+   padding: 100px 0;
+ }
+ 
+ h2::before, h2::after, .fh5co-about-us .owl-carousel1 .owl-dots .active span, .read-more, .fh5co-news .owl-carousel2 .owl-dots .active span, .form-box h4::after, .form-box button {
+   background-image: -moz-linear-gradient(0deg, #1270e4 0%, #58c0ff 100%);
+   background-image: -webkit-linear-gradient(0deg, #1270e4 0%, #58c0ff 100%);
+   background-image: -ms-linear-gradient(0deg, #1270e4 0%, #58c0ff 100%);
+ }
+ 
+ nav.fixed-top {
+   padding-top: 0;
+ }
+ 
+ .header .fixed-top {
+   position: absolute;
+ }
+ .header .container {
+   border-bottom: 1px solid rgba(255, 255, 255, 0.341);
+ }
+ .header .container p.follow {
+   color: #ffffff;
+   font-family: "segoeui";
+   margin-bottom: 10px;
+ }
+ .header .home-bg {
+   min-height: 430px;
+   max-height: 100vh;
+ }
+ .header .carousel-caption {
+   bottom: 0;
+   margin-top: 14%;
+   
+ }
+ .header .frst-hrd {
+   font-family: "Gotham-Narrow-Light";
+   background-color: rgba(255, 255, 255, 0.29);
+   border-radius: 20px;
+   max-width: 274px;
+   margin: 0 auto;
+   padding: 5px;
+   font-size: 16px;
+   color: #ffffff;
+ }
+
+ .header h5 {
+   font-size: 70px;
+   max-width: 1000px;
+   margin: 40px auto;
+   text-align: center;
+ }
+ .header h5 + p {
+  max-width: 700px;
+  line-height: 1.7;
+  margin: 0 auto;
+   font-size: 20px;
+   color: #ffffff;
+ }
+
+ @media (max-width: 1199px),(min-width: 992px) {
+   .header .carousel-caption {
+     top: 200px;
+   }
+ }
+ @media (max-width: 991px),(min-width:836px) {
+   .header h5 {
+     font-size: 50px;
+   }
+   .header .carousel-caption {
+     top: 14%;
+   }
+ }
+ @media (max-width: 835px) {
+   .header h5 {
+     font-size: 36px;
+     max-width: 300px;
+   }
+   .header h5 + p {
+     font-size: 16px;
+   }
+   .header .carousel-caption {
+     top: 14%;
+   }
+ }
+  
+ .scroll-button {
+   text-align: center;
+ }
+ .scroll-button p {
+   display: block;
+   position: absolute;
+   left: 0;
+   right: 0;
+   margin-top: -50px;
+   color: #fff;
+   font-size: 16px;
+   font-family: "Gotham-Narrow-Book";
+ }
+ .scroll-button a {
+   background: #ffffff;
+   border-radius: 50%;
+   display: block;
+   width: 82px;
+   height: 82px;
+   box-shadow: 0px 11px 10px 0px rgba(0, 0, 0, 0.07);
+   text-align: center;
+   padding-top: 30px;
+   margin: 0 auto;
+   margin-top: -45px;
+   z-index: 55;
+   position: relative;
+   cursor: pointer;
+   margin-bottom: 20px;
+ }
+
+ @media (max-width: 832px),(min-width:701px){
+  .scroll-button p {
+    display: none;
+  }
+ }
+
+ @media (max-width: 700px) {
+  .scroll-button{
+  margin-top: 30px;
+  }
+ }
+ 
+ .social-links {
+   width: 430px;
+ }
+ .social-links li {
+   border: 1px solid #ffffff;
+   border-radius: 50%;
+   height: 35px;
+   width: 35px;
+   text-align: center;
+   margin: 0 3px;
+ }
+ .social-links li a {
+   color: #ffffff;
+   padding: 5px;
+ }
+ @media (max-width: 1199px) {
+   .social-links {
+     float: left !important;
+     display: block;
+   }
+   .social-links li {
+     float: left;
+   }
+ }
+
+ h2 {
+   font-size: 33px;
+   color: #1e1f29;
+ }
+ h2::before {
+   position: absolute;
+   content: "";
+   width: 118px;
+   height: 2px;
+   margin-top: 18px;
+   margin-left: -140px;
+ }
+ h2::after {
+   position: absolute;
+   content: "";
+   height: 10px;
+   width: 10px;
+   margin-top: 20px;
+   margin-left: 10px;
+ }
+ 
+ p {
+   font-family: "Larsseit";
+   color: #aeafb9;
+   font-size: 14.583px;
+   line-height: 1.143;
+ }
+ 
+ .fh5co-about-us {
+   padding: 150px 0;
+ }
+
+
+ .fh5co-about-us h2 {
+   margin-left: 20px;
+ }
+ .fh5co-about-us p {
+   margin: 35px 0 0 0;
+ }
+
+ @media (max-width: 991px) {
+   .fh5co-about-us .col-lg-4 {
+    /* padding: -50%; */
+    width: 350px;
+    margin: auto;   
+     margin-bottom: 50px;
+   }
+ }
+ @media (max-width: 450px) {
+   .fh5co-about-us img {
+     width: 100%;
+     margin: 0;
+     padding: 30px;
+     margin-top: -100px;
+   }
+ }
+ 
+ .about-us-content {
+   box-shadow: 0px 34px 57px 0px rgba(0, 0, 0, 0.04);
+   background: #ffffff;
+   position: absolute;
+   padding-left: 100px;
+   margin-left: -24px;
+   z-index: 5;
+   padding: 50px 100px;
+   padding-right: 120px;
+ }
+
+ .about-us-content p{
+  line-height: 30px;
+  color: #666666;
+ }
+
+ @media (max-width: 1199px) {
+   .about-us-content {
+     margin-left: -18px;
+     padding: 20px 30px;
+   }
+ }
+ @media (max-width: 991px) {
+   .about-us-content {
+     position: relative;
+     margin-left: 0;
+     padding: 20px 30px;
+   }
+ }
+ 
+ a {
+   text-decoration: none !important;
+ }
+  
+ .back-bg {
+   position: absolute;
+   min-height: 600px;
+ }
+ @media (max-width: 1199px) {
+   .back-bg {
+     height: 100%;
+     min-height: 400px;
+     margin-bottom: 100px;
+   }
+ }
+ @media (max-width: 450px) {
+   .back-bg {
+     width: 100%;
+     min-height: 320px;
+     margin-left: -30px;
+   }
+ }
+ 
+ .fh5co-portfolio {
+   padding-bottom: 0;
+   
+ }
+ .fh5co-portfolio h3 {
+   color: #1e1f29;
+   margin-top: 20px;
+   
+ }
+ .fh5co-portfolio p {
+   max-width: 512px;
+   margin-top: 20px;
+ }
+ 
+ .portfolioContainer {
+   border-radius: 3px;
+   margin-top: 20px;
+   width: 50%;
+ }
+
+ .portfolioContainer img {
+  width: 95%;
+  height: 400px;
+  margin-top: 10px;
+ }
+ 
+ @media (max-width: 991px) {
+  .portfolioContainer img {
+     width: 100%;
+   }
+   .rounded-4 img {
+     height: auto;
+   }
+ }
+ @media (max-width: 450px) {
+  .portfolioContainer {
+    width: 100%;
+  }
+
+  .portfolioContainer img {
+     width: 100%;
+     margin: 10px auto;
+   }
+ }
+ 
+ .center-img {
+   width: 50%;
+ }
+ @media (max-width: 450px) {
+   .center-img {
+     width: 100%;
+   }
+ }
+ 
+ .card {
+   border: none;
+ }
+ 
+ .fh5co-news {
+   background: #fdfdfd;
+   padding-top: 200px;
+   padding-bottom: 0;
+ }
+ .fh5co-news .row {
+   padding: 0 80px;
+ }
+ @media (max-width: 767px) {
+   .fh5co-news .row {
+     padding: 0;
+   }
+ }
+ .fh5co-news h2 {
+   text-align: center;
+   margin-bottom: 50px;
+ }
+ .fh5co-news h5 {
+   font-family: "Larsseit-Medium";
+   color: #1e1f29;
+   font-size: 21px;
+ }
+ .fh5co-news p {
+   font-size: 16px;
+   line-height: 1.4;
+   margin-top: 20px;
+ }
+ .fh5co-news .card {
+   box-shadow: 0px 8px 29px 0px rgba(23, 23, 23, 0.03);
+ }
+ .fh5co-news .card-body {
+   padding: 30px 40px !important;
+ }
+ .fh5co-news .owl-nav {
+   display: none;
+ }
+ 
+ .col-lg-5 {
+  margin: 0 auto;
+ }
+ 
+ footer.fh5co-footer h2 {
+   margin-top: 80px;
+ }
+ footer.fh5co-footer .light {
+   font-family: "Larsseit-Light";
+   font-size: 18px;
+ }
+ footer.fh5co-footer p {
+   margin: 20px 0;
+ }
+ footer.fh5co-footer p span {
+   margin-right: 10px;
+ }
+ footer.fh5co-footer p span.phone {
+   top: -2px;
+   position: relative;
+ }
+ footer.fh5co-footer p b {
+   color: #1e1f29;
+   font-family: "Gilroy-Light";
+   font-weight: 700;
+   font-size: 16px;
+ }
+ footer.fh5co-footer h3 {
+   font-family: "Larsseit-Bold";
+   font-size: 33px;
+   color: #1e1f29;
+   text-transform: uppercase;
+ }
+ footer.fh5co-footer .social-links {
+   display: inline-block !important;
+   margin-top: 20px;
+ }
+ footer.fh5co-footer .social-links li {
+   border-color: #1e1f29;
+ }
+ footer.fh5co-footer .social-links li a {
+   color: #1e1f29;
+ }
+ @media (max-width: 991px) {
+   footer.fh5co-footer .col-lg-5 {
+     text-align: center;
+     margin-bottom: 50px;
+   }
+   footer.fh5co-footer .social-links {
+     display: inline-block !important;
+     margin-top: 20px;
+     float: none !important;
+     width: auto;
+   }
+ }
+ 
+ .copy {
+   text-align: center;
+   background: #f7f7f7;
+   padding: 40px 0;
+   display: block;
+   font-family: "Gilroy-Light";
+ }
+ 
+ .parallax-window {
+   min-height: 1027px;
+   position: relative;
+   z-index: 55;
+   top: 0;
+   left: 0;
+   right: 0;
+   min-height: 1027px;
+ }
+ 
