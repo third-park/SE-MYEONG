@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
-    "bootstrap": "^5.2.3"
+    "bootstrap": "^5.2.3",
+    "gh-pages": "^5.0.0"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.5"
@@ -23,6 +24,6 @@
   "bugs": {
     "url": "https://github.com/third-park/SE-MYEONG/issues"
   },
-  "homepage": "https://github.com/third-park/SE-MYEONG#readme",
+  "homepage": "https://github.com/third-park/SE-MYEONG",
   "description": ""
 }
