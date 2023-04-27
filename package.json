@@ -12,7 +12,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html",
+    "deploy":"gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,6 @@
   "bugs": {
     "url": "https://github.com/third-park/SE-MYEONG/issues"
   },
-  "homepage": "https://github.com/third-park/SE-MYEONG",
+  "homepage": "https://third-park.github.io/SE-MYEONG/seMyeong",
   "description": ""
 }
